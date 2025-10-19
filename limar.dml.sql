@@ -10,6 +10,7 @@ INSERT INTO ciudad VALUES
 (9, 'cucuta', '540001'),
 (10, 'ibague', '730001');
 
+
 INSERT INTO tipoUsuario VALUES
 (1, 'cliente'),
 (2, 'empleado'),
@@ -61,7 +62,6 @@ INSERT INTO empleado VALUES
 (9, 5, 'analista financiero', 6),
 (10, 1, 'coordinador de seguridad', 10);
 
-
 INSERT INTO servicio VALUES
 (1, 'despacho de articulos', 'organizacion y envio de articulos solicitados', 'activo'),
 (2, 'recepcion de articulos', 'recepcion de productos o documentos', 'activo'),
@@ -73,7 +73,6 @@ INSERT INTO servicio VALUES
 (8, 'transporte', 'traslado de personal o productos', 'activo'),
 (9, 'seguridad', 'vigilancia de instalaciones', 'activo'),
 (10, 'capacitaciones', 'formacion para empleados y clientes', 'activo');
-
 
 INSERT INTO turno VALUES
 (1, 1, 1, 4, '2025-10-01', '08:00:00', '09:00:00', 'completado'),
